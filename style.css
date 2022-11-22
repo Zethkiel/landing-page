@@ -30,6 +30,14 @@ ul {
 li a {
     color: #E5E7EB;
     text-decoration: none;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+}
+
+li a:hover {
+    color: #b7b8bb;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
 }
 
 .header {
@@ -64,20 +72,30 @@ li a {
     cursor: pointer;
 }
 
-.header a {
-    font-size: 18px;
-    font-weight: 600;
-    color: #F9FAF8;
-}
-
 .header .sign-up {
     background-color: #3882F6;
     text-decoration: none;
     border-radius: 10px;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+}
+
+.header .sign-up:hover {
+    background-color: #78a8f7;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
 }
 
 .header .log-in {
     background-color: #1F2937;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+}
+
+.header .log-in:hover {
+    color: #b7b8bb;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
 }
 
 .main-image {
@@ -180,6 +198,14 @@ li a {
     font-weight: 600;
     padding: 8px 32px;
     cursor: pointer;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+}
+
+.call-to-action button:hover {
+    background-color: #5d98f7;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
 }
 
 .footer {
